@@ -5,6 +5,6 @@ $
 PS1="[\d \@] [\u@\h] [\!] [\w] \n $"
 # Prompt with white colored font cyan sqaure brackets and red working directory.
 PS1="\e[0;36m[ \e[m\d \@\e[0;36m]\e[m \e[0;36m[\e[m\u@\h\e[0;36m]\e[m \e[0;36m[\e[m\!\e[0;36m]\e[m \e[0;31m[\w]\e[m \n $"
-# Prompt with yellow, red, white and cyan colors.
+# Prompt with bold yellow day, month day and tiime. red username and hostname, white history number of command and cyan working directory.
 PS1="\e[1;33m[\d \@]\e[m \e[0;31m[\u@\h]\e[m [\!] \e[0;36m[\w]\e[m \n $"
 
